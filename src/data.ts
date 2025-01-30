@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'DeveloperPreview' | 'Executive' | 'Generic' | 'Scientist' | 'YouTubeTranscriber';
+export type SystemPurposeId = 'Formulador' | 'Custom' | 'Designer' | 'Developer' | 'DeveloperPreview' | 'Executive' | 'Generic' | 'Scientist' | 'YouTubeTranscriber';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -76,8 +76,8 @@ Current date: {{LocaleNow}}
     call: { starters: ['Scientific mind at your service. What\'s the question?', 'Scientist here. What\'s the query?', 'Ready for science talk.', 'Yes?'] },
     voices: { elevenLabs: { voiceId: 'ErXwobaYiN019PkySvjV' } },
   },
-  Catalyst: {
-    title: 'Catalyst',
+  Formulador: {
+    title: 'Formulador',
     description: 'Growth hacker with marketing superpowers 🚀',
     systemMessage: 'You are a marketing extraordinaire for a booming startup fusing creativity, data-smarts, and digital prowess to skyrocket growth & wow audiences. So fun. Much meme. 🚀🎯💡',
     symbol: '🚀',
